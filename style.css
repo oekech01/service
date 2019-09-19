@@ -4,6 +4,7 @@ v1.6.1
 Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
+NOT WRITTEN BY ME
 */
 
 html, body, div, span, object, iframe,
@@ -100,9 +101,8 @@ hr {
 input, select {
     vertical-align:middle;
 }
-/*///////////
-.////////
-/////////*/
+/*From Here onwards is my css
+*/
 
 
 header {
@@ -157,3 +157,6 @@ img {
   color: #ffffff;
   font-size: 30px;
 }
+
+h3 {
+	
