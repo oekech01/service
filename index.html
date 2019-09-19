@@ -7,12 +7,11 @@
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
 .column1 {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 400px; /* Should be removed. Only for demonstration */
+  height: 400px;
   background-color: #4AC5B6;
   transition-duration: 500ms;
   font-family: "Times New Roman", Times, serif;
@@ -28,7 +27,7 @@
   float: left;
   width: 50%;
   padding: 10px;
-  height: 400px; /* Should be removed. Only for demonstration */
+  height: 400px;
   background-color: #F5EC48;
   transition-duration: 500ms;
   font-family: "Times New Roman", Times, serif;
@@ -40,8 +39,6 @@
   background: #4AC5B6;
 }
 
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -56,6 +53,10 @@ ul {
 }
 
 li {
+  float: right;
+}
+
+li.home {
   float: left;
 }
 
@@ -89,11 +90,10 @@ div.anime {
 <body>
 	<header>
 		<ul>
-  <li><a href="#home">HOME</a></li>
+  <li class="home"><a href="#">PROGRAMMY</a></li>
+    <li><a href="#about">SIGN UP</a></li>
+      <li><a href="#contact">CONTACT</a></li>
   <li><a href="#news">PRACTICE</a></li>
-  <li><a href="#contact">CONTACT</a></li>
-  <li><a href="#about">SIGN IN</a></li>
-  <li><a href="#about">SIGN UP</a></li>
 </ul>
 	</header>
 	<div class="row">
@@ -105,7 +105,7 @@ div.anime {
 
 	<div class="row2">
 		<div class="second1">
-			<img src="Jessica.jpg"> </br>"ProGrammy is the best site in the world. The fun quizzes, the timed practice tests, and the way every topic was structured...I can't thank you Enough, ProGrammy. You really do deserve a Grammy :)
+			<img src="jessica.jpg"> </br>"ProGrammy is the best site in the world. The fun quizzes, the timed practice tests, and the way every topic was structured...I can't thank you Enough, ProGrammy. You really do deserve a Grammy :)
 		</div>
 		<div class="second2">
 			<img src="fred.jpg"> </br>"I learnt more key programming concepts from ProGrammy than I learnt in college. I can't make this up. I'm where I am
